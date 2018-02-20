@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu Icons</title>
+</head>
+<style>
+  #Zero {
+      position: absolute;
+      top: 10px;
+      left: 50px;
+      right: 0;
+      bottom: 0;}
+  #One {
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      right: 0;
+      bottom: 0;}
+  #Two {
+      position: absolute;
+      top: 100px;
+      left: 0px;
+      right: 0;
+      bottom: 0;}
+  #Three {
+      position: absolute;
+      top: 230px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Four {
+      position: absolute;
+      top: 380px;
+      left: 700px;
+      right: 0;
+      bottom: 0px;}
+  #Five {
+      position: absolute;
+      top: 580px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Six {
+      position: absolute;
+      top: 690px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Seven {
+      position: absolute;
+      top: 900px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Seven {
+      position: absolute;
+      top: 1150px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Eight {
+      position: absolute;
+      top: 1400px;
+      left: 650px;
+      right: 0;
+      bottom: 0px;}
+  #Nine {
+      position: absolute;
+      top: 1650px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Ten {
+      position: absolute;
+      top: 1850px;
+      left: 50px;
+      right: 0;
+      bottom: 0px;}
+  #Eleven {
+      position: absolute;
+      top: 2100px;
+      left: 600px;
+      right: 0;
+      bottom: 0px;}
+  </style>
+<body>
+    <img src="https://media.giphy.com/media/1GLWygHN3GB3O/giphy.gif"
+   style="position:absolute; top:-60px; left:700px; width:400px; height:300px; border:none;">
+   <img src="https://cdn.vox-cdn.com/thumbor/9f4Q09AYG6IQwGvZByoLghS4Ekg=/0x24:1020x704/1025x683/filters:format(webp)/cdn.vox-cdn.com/assets/2351233/xerox-star-lead.jpg"
+  style="position:absolute; top:180px; left:630px; width:200px; height:150px; border:none;">
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/2c/00/45/2c0045709910640300ff9a57f4cce180.jpg"
+ style="position:absolute; top:180px; left:900px; width:200px; height:150px; border:none;">
+ <img src="https://s-media-cache-ak0.pinimg.com/originals/70/2b/6a/702b6aeaac390bf47c86a8145ab78f91.jpg"
+style="position:absolute; top:360px; left:50px; width:620px; height:150px; border:none;">
+<img src="https://blogsimages.adobe.com/creativecloud/files/2016/10/icondesign01.png"
+style="position:absolute; top:530px; left:750px; width:400px; height:200px; border:none;">
+<img src="https://guidebookgallery.org/pics/gui/settings/menu/os2warp3.png"
+style="position:absolute; top:840px; left:50px; width:450px; height:200px; border:none;">
+<img src="https://s-media-cache-ak0.pinimg.com/originals/40/88/a7/4088a78b3755fee1049b3d5926a61f20.png"
+style="position:absolute; top:840px; left:650px; width:300px; height:200px; border:none;">
+<img src="http://icons.iconarchive.com/icons/be-os/be-box/icons-390.jpg"
+style="position:absolute; top:1100px; left:750px; width:380px; height:250px; border:none;">
+<img src="https://guidebookgallery.org/pics/gui/settings/menu/irix53.png"
+style="position:absolute; top:1300px; left:100px; width:480px; height:250px; border:none;">
+<img src="http://www.pvhc.net/img87/smafgffavxxtnvpsdnvq.jpg"
+style="position:absolute; top:1500px; left:750px; width:380px; height:290px; border:none;">
+<img src="https://i-msdn.sec.s-msft.com/dynimg/IC43611.gif"
+style="position:absolute; top:1800px; left:750px; width:400px; height:240px; border:none;">
+<img src="https://boygeniusreport.files.wordpress.com/2016/02/ios-1-original-iphone.jpg?quality=98&strip=all&w=782"
+style="position:absolute; top:1950px; left:50px; width:200px; height:360px; border:none;">
+<img src="https://static1.squarespace.com/static/54bb4cfce4b045585ada36f7/t/55937005e4b09c6a2750c3c4/1435725830621/?format=750w"
+style="position:absolute; top:2200px; left:600px; width:600px; height:200px; border:none;">
+<img src="https://upload.wikimedia.org/wikipedia/en/9/9e/IOS_11_Homescreen_iPhone_7_Plus.png"
+style="position:absolute; top:1950px; left:350px; width:200px; height:350px; border:none;">
+<img src="https://png.icons8.com/metro/1600/arrow.png"
+style="position:absolute; top:2100px; left:275px; width:50px; height:40px; border:none;">
+<img src="https://media.giphy.com/media/111ebonMs90YLu/200.gif"
+style="position:absolute; top:4000px; left:1000px; width:400px; height:250px; border:none;">
+
+  <div id="Zero">
+  <span style="font-size:35pt"><code>History of Menu Icons</span></div><br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Computers and Operating Systems)
+  <h3><p style="color:orange"><div id="One"><code>Menu icons are graphic elements
+    that have functions that lead to a more <br>specific tool of a home menu page.
+    Some of the most widely used menu icons <br>that we know of today are the
+    hamburger icon, settings icon, the home icon, <br>and the chat/mail icon.</div></p></h3>
+
+    <p><div id="Three"><code>Icons were first introduced around the 1980s
+      by a computer called <br>the Xerox 8010 Star. Invented by Dr. David Smith and
+      designed by <br>Norm Cox, this mathematician and artist made the first square
+      grid <br>icons on the colorless desktop which led to the icons we see today.
+ </div></p>
+        <div id="Four"><code>Around 1985, the
+        icons were starting to become more than just flat symbols, <br>like the file
+        drawers or the trash icon. Also around the same time, color <br>became a
+        thing. Icons were stepping outside the boundaries of black and white <br>as
+        technology improved and evolved. The computer Amiga introduced and
+        enabled <br>a setting where users were able to customize the icons with 4
+        colors and <br>several different sizes.
+</div>
+      <p><div id="Five"><code>In 1989, Steve Jobs’s newer operating
+        system named “neXTSTEP” was introduced. <br>The icons in this program had
+        shading and more detailed designs, which were <br>the first to have
+        skeuomorphism.
+
+      </div><p>
+      <p style="color:cyan"><div id="Six"><code>Entering the 90s,
+        the icons started to become looking more organized and <br>intrusive.
+        Isometric designs were used more often and solid accents were put <br>in.
+        Different companies also decided to take a unique turn in their designs
+        <br>and made something different from everyone else. In 1993, a computer
+        called <br>the “Geoworks Ensemble 2” by Geoworks decided to be one of those
+        first companies <br>to move away from the mainstream style by making most
+        of the icons into a teal <br>color as the main colorway, instead for going
+        all out with using as many colors <br>as possible.
+</div></p>
+
+      <p><span style="font-size:20pt"><div id="Seven"><code>Another unique
+        style was designed by the BeOS in 1997, where all the icons <br>were made
+        to have a cubic shape as their base design.
+</div></span>
+
+      <p><span style="font-size:20pt"><div id="Eight"><code>And in 1998,
+        designers were pushing hard to make their vector icons stand out <br>using
+        lowkey illusionism, some making their menu icons look like it’s floating.
+</div></span>
+
+      <p><span style="font-size:20pt"><div id="Nine"><code>Starting from
+        the new era in 2000, the styles of the icons finally became to be <br>the
+        realistic icons that we mostly see today. The hyper realistic photo
+        illustrative <br>icons were first seen on the iconic Windows XP and the Mac
+        OS X.
+</div></span>
+
+      <p><span style="font-size:20pt"><div id="Ten"><code>Jumping all the
+        way to mid 2007, the glossy icons came to handheld devices, <br>with the
+        introduction to the first ever version of the ISO. Android and other
+        <br>phones followed the lead soon after but around 2010-12, designers
+        started to <br>backtrack with the realistic design and started to go back
+        to simple and flat <br>illustrations with as few as 2 colors used.
+</div></span>
+
+      <p><span style="font-size:20pt"><div id="Eleven"><code>Now in 2018, we
+        still do see realistic icons, but most of these menu buttons still <br>go
+        with the simplicity of the flat designs.
+</div></span>
