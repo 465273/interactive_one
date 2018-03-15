@@ -135,7 +135,7 @@
 </div>
 </div>
 <div class="parallax"></div>
-<div style="height:300px;background-color:orange;z-index:10000;background-attachment: scroll;">
+<div style="height:300px;background-color:#FF8069;z-index:10000;background-attachment: scroll;">
 </div>
 
 <img id="hover2" src="Bi3.png"
