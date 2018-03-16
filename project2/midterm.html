@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    }
+    .container {
+    position: relative;
+    width: 10px;
+    height: 10px;
+  }
+  .parallax {
+
+    background-image: url("img_parallax.jpg");
+
+    min-height: 440px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax1 {
+
+    background-image: url("img_parallax.jpg");
+
+    min-height: 350px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+
+    background-image: url("img_parallax.jpg");
+
+    min-height: 0px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    .item img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    }
+    .container:hover .item img {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8) rotate(450deg);
+    }
+
+    body {
+      height:190vh;
+    }
+
+#trashcan{
+  position: fixed;
+}
+#trashcan #one {
+  transition: all 100ms;
+}
+
+#trashcan:hover #one {
+  transform: rotate(360deg) translate(250px,0);transition-delay: 0.4s;
+}
+
+#trashcan:hover #two {
+  transform: rotate(360deg) translate(400px,0);transition-delay: 0.2s;
+}
+
+#trashcan:hover #three {
+  transform: rotate(360deg) translate(550px,0);transition-delay: 0.3s;
+}
+
+#trashcan:hover #four {
+  transform: rotate(360deg) translate(700px,0);transition-delay: 0.4s;
+}
+
+#trashcan:hover #five {
+  transform: rotate(360deg) translate(850px,0);transition-delay: 0.5s;
+}
+
+#trashcan:hover #six {
+  transform: rotate(360deg) translate(1000px,0);transition-delay: 0.6s;
+}
+
+#trashcan:hover #seven {
+  transform: rotate(360deg) translate(1150px,0);transition-delay: 0.7s;
+}
+
+#trashcan:hover #eight {
+  transform: rotate(335deg) scale(1.8) translate(140px,0);transition-delay: 0s;
+}
+
+#hover:hover {
+  -webkit-transform: rotate(360deg) scale(1.5); transition: 0.6s ease;
+}
+
+#hover2:hover {
+  -webkit-transform: scale(1.8); transition: 0.6s ease;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+<div class="item" id="trashcan">
+  <img src="midterm base trash.png" style="position:absolute; top:250px; left:100px;z-index:1000;">
+    <img id="one" src="Um2.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="two" src="Um4.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="three" src="Um3.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="four" src="Um1.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="five" src="Um5.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="six" src="Um6.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="seven" src="shithole.png"
+    style="position:absolute; top:300px; left:150px; width:100px; height:95px;">
+    <img id="eight" src="lid.png"
+    style="position:absolute; top:170px; left:100px; width:200px; height:200px;">
+
+</div>
+</div>
+<div class="parallax"></div>
+<div style="height:300px;background-color:#FF8069;z-index:10000;background-attachment: scroll;">
+</div>
+
+<img id="hover2" src="Bi3.png"
+style="position:fixed; top:550px; left:400px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi5.png"
+style="position:fixed; top:550px; left:550px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi4.png"
+style="position:fixed; top:550px; left:700px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi2.png"
+style="position:fixed; top:550px; left:850px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi6.png"
+style="position:fixed; top:550px; left:1000px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi1.png"
+style="position:fixed; top:550px; left:1150px; width:100px; height:95px;z-index:-1;">
+<img id="hover2" src="Bi7.png"
+style="position:fixed; top:550px; left:1300px; width:100px; height:95px;z-index:-1;">
+
+<div class="parallax1"></div>
+<div style="height:100px;background-color:#FFDB38;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FFC038;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FFB138;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FF9838;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FF8938;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FF6E38;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#FF5638;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#E85034;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#D54A31;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:100px;background-color:#BE3A22;z-index:10000;background-attachment: scroll;">
+</div>
+
+<div class="parallax2"></div>
+<div style="height:50px;background-color:#AF2E16;z-index:10000;background-attachment: scroll;">
+</div>
+
+<img id="hover" src="spongegif.gif"
+style="position:absolute; top:1598px; left:100px; width:350px; height:300px;z-index:0;">
+
+<img src="trash.gif"
+style="position:fixed; top:20px; left:600px; width:500px; height:150px;z-index:20000;">
+
+
+  <img id="hover" src="U1.png"
+  style="position:absolute; top:1600px; left:500px; width:100px; height:95px;">
+
+  <img id="hover" src="U2.png"
+  style="position:absolute; top:1600px; left:600px; width:100px; height:95px;">
+
+  <img id="hover" src="U3.png"
+  style="position:absolute; top:1600px; left:700px; width:100px; height:95px;">
+
+  <img id="hover" src="U4.png"
+  style="position:absolute; top:1600px; left:800px; width:100px; height:95px;">
+
+  <img id="hover" src="U5.png"
+  style="position:absolute; top:1600px; left:900px; width:100px; height:95px;">
+
+  <img id="hover" src="U6.png"
+  style="position:absolute; top:1600px; left:1000px; width:100px; height:95px;">
+
+  <img id="hover" src="U7.png"
+  style="position:absolute; top:1600px; left:1100px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui1.png"
+  style="position:absolute; top:1700px; left:500px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui2.png"
+  style="position:absolute; top:1700px; left:600px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui3.png"
+  style="position:absolute; top:1700px; left:700px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui4.png"
+  style="position:absolute; top:1700px; left:800px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui5.png"
+  style="position:absolute; top:1700px; left:900px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui6.png"
+  style="position:absolute; top:1700px; left:1000px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 1.png"
+  style="position:absolute; top:1700px; left:1100px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 2.png"
+  style="position:absolute; top:1800px; left:500px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 3.png"
+  style="position:absolute; top:1800px; left:600px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 4.png"
+  style="position:absolute; top:1800px; left:700px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 5.png"
+  style="position:absolute; top:1800px; left:800px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 6.png"
+  style="position:absolute; top:1800px; left:900px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 7.png"
+  style="position:absolute; top:1800px; left:1000px; width:100px; height:95px;">
+
+  <img id="hover" src="Ui icons 8.png"
+  style="position:absolute; top:1800px; left:1100px; width:100px; height:95px;">
+
+  </body>
+</html>
