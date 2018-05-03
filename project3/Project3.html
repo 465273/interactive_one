@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ads and shit</title>
+    <style>
+    .redbox{
+      position: absolute;
+      left: 0px;
+      top: 10px;
+	    width:1700px;
+	    height:50px;
+      background:lightskyblue;
+      z-index: -5
+    }
+    body {
+      height:150vh;
+    }
+
+    video {
+      position: absolute;
+      left: 240px;
+      top: 70px;
+
+    }
+
+    #op {opacity: 0.2;
+  }
+
+    @media screen {
+      #print {
+        display:none;
+      }
+    }
+
+    @media print {
+      #screen {
+        display:none;
+      }
+    }
+    </style>
+<script type="text/javascript">
+var pix = ["ad2.jpg","adgif.gif","ad3.gif","ad1.png","ad4.gif"];
+
+function poppic( )
+{
+   var random = Math.floor( pix.length * Math.random() );
+   var aWindow = window.open( pix[random], "POPUPPIX", "height=500,width=500" );
+let runCount = 0
+let intervalId = setInterval(function(){
+  console.log('hi')
+  random = Math.floor( pix.length * Math.random() );
+  var aWindow = window.open( pix[random], "POPUPPIX" + Math.random(), "height=500,width=500" );
+
+  aWindow.moveTo(Math.random() * 1000, Math.random() * 1000)
+  runCount ++
+
+console.log(runCount, intervalId)
+  if(runCount == 4){
+    clearInterval(intervalId)
+  }
+},50)
+
+   // setInterval(function(){
+   //   aWindow.moveBy(Math.random() * 10 - 5, Math.random() * 10 - 5)
+   //
+   // }, 100)
+}
+
+let isFirstPlay = true
+let isSecondPlay = false
+window.addEventListener('load',function(){
+
+  videoPlayer.addEventListener('play',function(e){
+    if(isFirstPlay){
+      isFirstPlay = false
+      isSecondPlay = true
+
+      poppic()
+      setTimeout(function(){
+        videoPlayer.pause()
+      }, 2000)
+
+    } else if(isSecondPlay){
+      isSecondPlay = false
+      console.log('asdasdasda')
+      window.print()
+      videoPlayer.pause()
+    }
+  })
+
+})
+
+</script>
+</head>
+<body>
+  <div id="screen">
+    <div style="position: absolute; top:10px; left:40px; font-size: 30pt;
+    font-family:sans-serif; color: white;">
+      ¥øü†µß∑</div>
+  <img src="play.gif"
+  style="position:absolute; top:60px; left:0px; width:240px; height:170px;">
+  <img src="v2.jpg"
+  style="position:absolute; top:230px; left:10px; width:220px; height:140px;">
+  <img src="v2.jpg"
+  style="position:absolute; top:400px; left:10px; width:220px; height:140px;">
+  <img src="v2.jpg"
+  style="position:absolute; top:570px; left:10px; width:220px; height:140px;">
+  <img src="v2.jpg"
+  style="position:absolute; top:740px; left:10px; width:220px; height:140px;">
+  <img src="v2.jpg"
+  style="position:absolute; top:910px; left:10px; width:220px; height:140px;">
+<div class="redbox"top=100px; left=100px;></div>
+  <a href="#">
+    <video id="videoPlayer"width="750" height="520" controls>
+  <source src="fc.mov" type="video/mp4">
+    <img src="v2.jpg"
+    style="position:absolute; top:100px; left:100px; width:800px; height:500px;">
+  Your browser does not support the video tag.
+</video>
+</a>
+<div style="position: absolute; top:600px; left:400px; font-size: 30pt; font-family: Tahoma;">
+  Just Another Video</div>
+
+</div>
+<div id="print">
+<code>
+  <h1>How to block pop-up ads</h1>
+  <hr>
+  <br><p><h3>Google Chrome</h3>
+  <p>1. Select Settings from the Chrome menu.
+  <p>2. Typing in Popups
+  <p>3. Click the Content Settings button.
+  <p>4. Toggle the Pop-ups option to Blocked or delete exceptions.</p>
+
+  <br><p><h3>Safari</h3>
+  <p>1. Click on Safari on the upper left of your screen to open the drop down options.
+  <p>2. Choose Preferences. Make sure "Block Pop-Up Windows is unchecked as in
+    the image above.
+  <p>3. Click Preferences and from the menu, choose Security.
+  <p>3. Make sure Block pop-up windows is NOT selected. If it is selected, click it
+    to deselect.</p>
+
+  <br><p><h3>Firefox</h3>
+  <p>1. Click on the Firefox button in the upper-left of your browser and click on
+      Options
+  <p>2. Select the Content tab and make sure that “Block pop-up windows” is checked.
+      If it isn’t, check it.
+  <p>3. Click the Exceptions button.  Remove any existing exceptions.</p>
+
+  <br><p><h3>Internet Explorer</h3>
+  <p>1. Open Internet Explorer, select the Tools button , and then select Internet options.
+  <p>2. On the Privacy tab, under Pop-up Blocker, select Settings.
+  <p>3. Under Blocking level, set the blocking level to High: Block all pop-ups (Ctrl + Alt to override).
+    <img id="op" src="sil3.png"
+    style="position:absolute; top:795px; left:0px; width:215px; height:137px;">
+    <img id="op" src="sil.png"
+    style="position:absolute; top:785px; left:170px; width:230px; height:147px;">
+    <img id="op" src="sil2.png"
+    style="position:absolute; top:790px; left:340px; width:220px; height:140px;">
+    <img id="op" src="sil4.png"
+    style="position:absolute; top:785px; left:500px; width:220px; height:140px;">
+</div>
+  </body>
+</html>
